@@ -50,7 +50,7 @@ def ToASM(byte1,byte2,byte3):
 		
 	elif byte1 == "01":
 		count += 1
-		return ("\tora ($" + byte2 + ", x)\t; 01 " + byte2) # (Indirect,X) ###################### a wrong
+		return ("\tora ($" + byte2 + ", x)\t; 01 " + byte2) # (Indirect,X)
 		
 	elif byte1 == "05":
 		count += 1
